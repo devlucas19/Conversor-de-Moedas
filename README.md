@@ -1,6 +1,6 @@
 # Conversor de Moedas
 
-<h2>Descrição</h2>
+<h2>Descrição 💲</h2>
 <hr>
 <br>
 
@@ -11,13 +11,13 @@
 <hr>
 <br>
 
-<img src="images/splash.png" height="200px">
-
-<img src="images/../gif/CMilustration.gif" height="200px">
+<div display="flex" >
+    <img align="center" src="images/splash.png" height="300px">
+    <img align="center" src="images/../gif/CMilustration.gif" height="300px">
+</div>
 
 <h2>Funcionalidades</h2>
 <hr>
-<br>
 
 <ul>
     <li>Faz a conversão da moeda selecionada, sendo atualmente Dólar ou Euro.</li>
