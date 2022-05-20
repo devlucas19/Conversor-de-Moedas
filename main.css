@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    background-color: lightgray;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+.container {
+    width: 1000px;
+    height: 650px;
+    background-image: url(images/back.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: "header header header header header"
+        "sidebar mainOne mainOne mainOne mainOne"
+        "sidebar infos infos infos infos"
+        "footer footer footer footer footer"
+    ;
+    border-radius: 15px;
+}
+
+.cx-1 {
+    grid-area: header;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.cx-2 {
+    grid-area: mainOne;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px
+}
+
+.cx-3 {
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-right: 1px solid lightgray;
+}
+
+.cx-4 {
+    grid-area: infos;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 10px
+}
+
+#resultado {
+    display: none;
+    background-color: whitesmoke;
+    width: max-content;
+    height: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 3.5px;
+}
+
+#btnConverter {
+    height: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    width: max-content;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#btnConverter:hover {
+    background-color: white;
+    color: black;
+}
+
+#statusMoeda {
+    color: black
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+select {
+    text-align: center;
+    background-color: whitesmoke;
+    height: 25px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+form input {
+    text-align: center;
+    height: 25px;
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-weight: 400;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 15px;
+}

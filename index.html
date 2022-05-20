@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="images/Hopstarter-Sleek-Xp-Basic-Money.ico" type="image/x-icon">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="cx-1">
+
+            <h1>Cotação do Dia</h1>
+
+        </header>
+
+        <main class="cx-2">
+            <h2 id="statusMoedas"></h2>
+            <hr width="30%">
+
+            <form>
+                <input id="valor" type="number" placeholder="Insira um Valor">
+            </form>
+
+            <div>
+
+                <select name="selectMoeda" id="select">
+                    <option name="moedaEstrangeira" value="dolar">Dólar</option>
+                    <option name="moedaEstrangeira" value="euro">Euro</option>
+                </select>
+
+            </div>
+            <input type="button" value="Converter" id="btnConverter">
+
+            <p id="resultado"></p>
+
+        </main>
+        <section class="cx-3">
+
+            <div>
+                <h1>Dólar</h1>
+                <h2>Alta</h2>
+                <p id="high"></p>
+                <h2>Baixa</h2>
+                <p id="low"></p>
+                <hr>
+            </div>
+
+            <div>
+                <h1>Euro</h1>
+                <h2>Alta</h2>
+                <p id="highEur"></p>
+                <h2>Baixa</h2>
+                <p id="lowEur"></p>
+            </div>
+
+        </section>
+        <section class="cx-4">
+
+            <h2>Sobre o Dólar</h2>
+
+            <hr width="20%">
+
+            <p>O dólar americano é a principal moeda utilizada na economia mundial, em transações como importações e
+                exportações e negociação de títulos na Bolsa de Valores. A cotação da moeda é diferenciada de acordo com
+                o tipo de operação que será realizada: no caso de importações, exportações e investimentos, é utilizado
+                o chamado dólar comercial. Para a compra de papel moeda físico para viagens, seja a passeio ou negócios,
+                a moeda é o dólar turismo. A moeda é utilizada em vários outros países em todo o mundo, mas tem cotações
+                diferentes de acordo com o local: é o caso dos dólares bahamense, barbadiano, belizenho, australiano e
+                canadense. A produção de dólar americano é controlada pelo Fed, o Banco Central dos Estados Unidos.
+            </p>
+
+        </section>
+    </div>
+    <div style="display:flex; justify-content:center; align-items:center; padding:3px">
+        <p>Feito por <a style="text-decoration: none; color:black" href="https://github.com/devlucas19">Lucas de
+                Lima</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
