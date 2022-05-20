@@ -7,7 +7,7 @@
 
 <h2>Ilustrações</h2>
 
-    <img align="center" src="images/../gif/CMilustration.gif" height="300px">
+<img align="center" src="images/../gif/CMilustration.gif" height="300px">
 
 <h2>Funcionalidades</h2>
 
